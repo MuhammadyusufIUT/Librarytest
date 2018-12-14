@@ -24,4 +24,10 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="LibraryData">
+      <HintPath>..\LibraryData\bin\Debug\netcoreapp2.1\LibraryData.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
